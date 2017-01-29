@@ -9,7 +9,7 @@ app.use(express.static('public'));
 
 app.use(cors());
 
-var domains = ['accounts', 'autos'];
+var domains = ['accounts', 'advertising', 'autos'];
 
 domains.forEach(function (domain) {
     app.use(util.format('/%s/master/%s', domain, domain), express.static(domain));
