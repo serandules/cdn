@@ -9,7 +9,7 @@
   "dependencies": {
     "express": "4.*",
     "component-middleware": "1.*",
-    "cors": "2.7.1"
+    "cors": "2.8.4"
   },
   "repository": {
     "type": "git",
