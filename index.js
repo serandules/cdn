@@ -5,9 +5,8 @@ var cors = require('cors');
 
 var app = express();
 
-app.use(express.static('public'));
-
 app.use(cors());
+app.use(express.static('public'));
 
 var domains = ['accounts', 'advertising', 'autos'];
 
