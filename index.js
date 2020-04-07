@@ -18,9 +18,9 @@ app.get('/facebook/token', function (req, res) {
 
 app.get('/facebook/profile', function (req, res) {
     res.json({
-        email: 'ruchira.wageesha@gmail.com',
-        first_name: 'Ruchira',
-        last_name: 'Wageesha'
+        email: 'serandlabs@gmail.com',
+        first_name: 'Serand',
+        last_name: 'Labs'
     });
 });
 
