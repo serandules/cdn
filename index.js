@@ -25,7 +25,7 @@ app.get('/facebook/profile', function (req, res) {
 });
 
 app.get('/facebook/dialog/oauth', function (req, res) {
-    var uri = 'http://development.accounts.serandives.com:4000/auth/oauth?code=123456';
+    var uri = 'http://accounts.development.serandives.com:4000/auth/oauth?code=123456';
     res.redirect(uri);
 });
 
